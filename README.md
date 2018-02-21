@@ -1,7 +1,7 @@
 # MyReactReduxStarter
 Empty React with Redux starter ready to npm install
 
-This project is a simply preconfigured project, ready to install npm. To install clone this project and change name in package.json. Then open terminal, go to the project directory and execute:
+This project is a simply preconfigured project, ready to install npm. To install clone this project and change folder name and property name in package.json. Then open terminal, go to the project directory and execute:
 ```
 $ npm install
 $ npm start
