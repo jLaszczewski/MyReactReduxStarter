@@ -1,6 +1,8 @@
 {
   "name": "MyReactReduxStarter",
   "version": "1.0.0",
+  "description": "Empty React with Redux starter ready to npm install",
+  "description": "Simple starter package for Redux with React and Babel support",
   "repository": "git@github.com:jLaszczewski/MyReactReduxStarter.git",
   "main": "index.js",
   "scripts": {
@@ -8,6 +10,8 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
+  "author": "Jakub Łaszczewski",
+  "license": "ISC",
   "dependencies": {
     "babel-preset-stage-1": "^6.24.1",
     "react": "^16.2.0",
