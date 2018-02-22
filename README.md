@@ -30,7 +30,7 @@ If you want use current version of all fetures you can config your project in ea
    And another one in new folder "src":
    - index.js
 3. In index.html type basic html tags:
-   '''
+   ```
    <!DOCTYPE html>
    <html>
     <head>
@@ -43,9 +43,9 @@ If you want use current version of all fetures you can config your project in ea
     </body>
     <script src="/bundle.js"></script>
    </html>
-   '''
+   ```
 4. Next in your index.js file type your basic component, for example: 
-   '''
+   ```
    import React, { Component } from 'react';
    import ReactDOM from 'react-dom';
 
@@ -56,9 +56,9 @@ If you want use current version of all fetures you can config your project in ea
    }
    
    ReactDOM.render(<App />, document.querySelector('.container'));
-   '''
+   ```
 5. In package.json type:
-   '''
+   ```
    {
     "name": "Name of your project",
     "version": "1.0.0",
@@ -72,20 +72,20 @@ If you want use current version of all fetures you can config your project in ea
     "author": "",
      "license": "ISC"
    }
-   '''
+   ```
 6. Install every packed you will need (every tools and dev-tools). For tools in this project go to directory of your current project using terminal and type:
-   '''
+   ```
    $ npm install --save react react-dom redux react-redux react-scripts
    $ npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react babel-preset-stage-2 inline-source-map webpack webpack-dev-server
-   '''
+   ```
 7. Next go to your webpack.config.js file and type in:
-   '''
+   ```
    module.exports = {
     entry: [
       './src/index.js'
     ],
     output: {
-      path: \_\_dirname,
+      path: __dirname,
       publicPath: '/',
       filename: 'bundle.js'
     },
@@ -103,21 +103,23 @@ If you want use current version of all fetures you can config your project in ea
       contentBase: './'
     }
    };
-   '''
+   ```
 8. Last file which we need to edit is .babelrc: There you need to type: 
+   ```
    {
     "presets": [ "env", "react", "stage-2"]
    }
+   ```
 9. Now go to main directory of your project and type: 
-   '''
+   ```
    $ npm install
-   '''
+   ```
    
  After that your project is ready to code!
  
  PS: If you want to use github, I prefere to not upload node_modules and created by system or compilator not important file to repository. To do that create file '.gitignore' in your main directory and type in: 
- '''
- /node_modules
+```
+/node_modules
 bundle.js
 npm-debug.log
 .DS_Store
@@ -125,4 +127,4 @@ npm-debug.log
 # IntelliJ
 *.iml
 /.idea
-'''
+```
