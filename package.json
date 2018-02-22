@@ -2,7 +2,6 @@
   "name": "MyReactReduxStarter",
   "version": "1.0.0",
   "description": "Empty React with Redux starter ready to npm install",
-  "description": "Simple starter package for Redux with React and Babel support",
   "repository": "git@github.com:jLaszczewski/MyReactReduxStarter.git",
   "main": "index.js",
   "scripts": {
