@@ -70,13 +70,13 @@ If you want use current version of all fetures you can config your project in ea
       "test:watch": "npm run test -- --watch"
     },
     "author": "",
-     "license": "ISC"
+    "license": "ISC"
    }
    ```
 6. Install every packed you will need (every tools and dev-tools). For tools in this project go to directory of your current project using terminal and type:
    ```
    $ npm install --save react react-dom redux react-redux react-scripts
-   $ npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react babel-preset-stage-2 inline-source-map webpack webpack-dev-server
+   $ npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react babel-preset-stage-2 webpack webpack-dev-server
    ```
 7. Next go to your webpack.config.js file and type in:
    ```
@@ -101,7 +101,8 @@ If you want use current version of all fetures you can config your project in ea
     devServer: {
       historyApiFallback: true,
       contentBase: './'
-    }
+    },
+    devtool: 'inline-source-map'
    };
    ```
 8. Last file which we need to edit is .babelrc: There you need to type: 
