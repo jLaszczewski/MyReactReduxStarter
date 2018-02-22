@@ -27,6 +27,7 @@ If you want use current version of all fetures you can config your project in ea
    - package.json
    - webpack.config.js
    - .babelrc
+   
    And another one in new folder "src":
    - index.js
 3. In index.html type basic html tags:
