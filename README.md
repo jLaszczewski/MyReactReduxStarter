@@ -28,7 +28,7 @@ If you want use current version of all fetures you can config your project in ea
    - webpack.config.js
    - .babelrc
    
-   And another one in new folder "src":
+   And another one in new folder _src_:
    - index.js
 3. In index.html type basic html tags:
    ```
@@ -119,7 +119,7 @@ If you want use current version of all fetures you can config your project in ea
    
  After that your project is ready to code!
  
- PS: If you want to use github, I prefere to not upload node_modules and created by system or compilator not important file to repository. To do that create file '.gitignore' in your main directory and type in: 
+ PS: If you want to use github, I prefere to not upload node_modules and created by system or compilator not important file to repository. To do that create file _.gitignore_ in your main directory and type in: 
 ```
 /node_modules
 bundle.js
