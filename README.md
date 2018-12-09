@@ -37,7 +37,7 @@ If you want use current version of all fetures you can config your project in ea
     <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="/style/style.css">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/twbs/bootstrap@48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
     </head>
     <body>
       <div class="container"></div>
